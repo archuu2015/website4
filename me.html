@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <title>Hotel Management</title>
+  <script>
+    $(document).ready
+    (function()
+    {
+      $('[data-toggle="popover"]').popover();
+
+    });
+    </script>
+     <script>
+        $(document).ready
+        (function()
+        {
+          $('[data-toggle="tooltip"]').tooltip();
+   
+        });
+        </script>
+</head>
+<style>
+ body{
+    background-color:lavender
+       
+ }
+ #h5{
+     color:antiquewhite;
+ }
+ 
+</style>
+<body>
+    <nav class="navbar navbar-expand-md bg-light navbar-light">
+                
+        <a class="navbar-brand" href="#"><img src="00.jpg" style="width:40px"></img></a>
+        <a class="navbar-brand" href="#" style="color:black">Hotel Elite</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#cnavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="cnavbar">
+        <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="facilities.html">Facilities</a></li>
+        <li class="nav-item"><a class="nav-link" href="room.html">Rooms</a></li>
+        <li class="nav-item"><a class="nav-link" href="amenities.html">Amenities</a></li>
+        <li class="nav-item"><a class="nav-link active" href="me.html">Contact Us</a></li>&nbsp;&nbsp;&nbsp;
+        <button type="button" class="btn btn-outline-danger">Book Now</button>
+    </div>
+    </ul></nav><br><br>
+    <div class="container-fluid" style="margin-left:5px;">
+        <div class="row">
+            <div class="col-sm-4">
+                 <div style="background:black; width: 100%; height: 300px;">
+                <h1 style="text-align:center;color:white">Contact Us</h1>
+            </div></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           
+            <div class="col-sm-6 ">
+                <img  class="rounded"src="08c.jpg" alt="image" height="300" width="800">
+            </div></div><br>
+            <div class="row">
+            <div class="col-sm-6">
+                <div style="border:1px solid ; text-align: center; width:600px; height:383.5px">
+                <p><br>NOTE:<br>
+                   1. Extra person would be charged as per the above.<br>
+                   2. Standard check in time is 12:00 Noon and 
+                   check out time is 10:00 Morning.<br>
+                   3. Room tariff are on EP (Room Only) per day basis.<br><br><br>
+                DOCUMENTATION:<br>
+                As per Government of India Regulations which is non-negotiable<BR>
+                 we need the following from each Guest in ORIGINAL on check in time:<br><br>
+
+               1. For Foreigners & Persons of Indian Origin holding foreign passports – 
+                Passports along with a valid Indian Visa.<br>
+               2. For Indians – Driving License or Aadhar Card or Voter ID Card.</p>
+             </div></div>
+             <div class="col-sm-6">
+                <div style="border:1px solid; text-align: center; "><br>
+                    
+                        <div class=" text-center" >
+                            
+                            <input style="width:500px" type="text" name="text" placeholder="Name" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Enter Your Full Name"><br><br>
+                            <input style="width:500px" type="email" name="email" placeholder="Email" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Enter You Email id that contains '@' symbol"><br><br>
+                            <input style="width:500px" type="text" name="text" placeholder="Subject" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Enter the subject of your query"><br><br>
+                            <textarea style="width:500px" type="comment" name="text" rows="4" placeholder="Description"data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Describe here your query in detail"></textarea><br><br>
+                           
+                                  <button class="btn btn-info" data-toggle="modal" data-target="#mymodal">Submit</button>
+                            <div class="modal fade" id="mymodal" >
+                                <div class="modal-dialog modal-md modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                           
+                                       <h3 class="modal-title">Your Query Has Been Received Successfully</h3>
+                                       <button class="close" data-dismiss="modal">&times;</button>
+                                    <br>
+                                      
+                                    </div>
+                                       <div class="modal-body">
+                                            <p>Thank you for showing your interest </p>
+                
+                                        </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                                    </div>
+                                    
+                                    </div>
+                                </div>
+                        </div>
+                    </div></div></div>
+                        </div>
+                    </div>
+             </div></div></div><br><br>
+             <ul class="pagination justify-content-center">
+                <li class="page-item"><a href="amenities.html" class="page-link" data-toggle="tooltip" title="Previous">Previous</a></li>
+                <li class="page-item"><a href="#" class="page-link">1</a></li>
+                <li class="page-item"><a href="#" class="page-link">2</a></li>
+                <li class="page-item"><a href="#" class="page-link">3</a></li>
+                <li class="page-item"><a href="#" class="page-link">4</a></li>
+                <li class="page-item"><a href="#" class="page-link">5</a></li>
+           
+            </ul><br>
+
+            <footer class="footer-copyright text-center ">&copy; 2022 Hotel Elite</footer>
